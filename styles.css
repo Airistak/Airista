@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Latar belakang hitam */
+    color: #fff; /* Teks berwarna putih */
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background: #111; /* Warna latar belakang header */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.logo img {
+    width: 50px; /* Ukuran logo */
+    height: auto;
+    margin-right: 20px; /* Jarak antara logo dan navigasi */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #f39c12; /* Warna saat hover */
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #111;
+    color: #fff;
+}
